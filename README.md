@@ -1,7 +1,6 @@
 # 2023 TGRS Attenuation of Seismic Random Noise With Unknown Distribution: A Gaussianization Framework
 
-This repo contains the official implementation for the paper [Attenuation of Seismic Random Noise With Unknown Distribution:A Gaussianization Framework](https://ieeexplore.ieee.org/document/10193802![field noise evolution.jpg](..%2F..%2F..%2Fpaper%2F2ndPaper%2Fplot%2Ffield%20noise%20evolution.jpg)). 
-
+This repo contains the official implementation for the paper [Attenuation of Seismic Random Noise With Unknown Distribution:A Gaussianization Framework](https://ieeexplore.ieee.org/document/10193802)
 by Chuangji Meng, Jinghuai Gao∗, Yajun Tian, Liang Zhao, Haoqi Zhao, Zhiqiang Wang.
 
 SRNGF couples the Gaussianization subproblem and Gaussian denoising subproblem based on the plug-and
