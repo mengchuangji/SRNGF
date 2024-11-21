@@ -11,20 +11,20 @@ can be replaced by seismic denoiser, aims only for Gaussian noise removal, makin
 to seismic data. SRNGF can improve the ability of non-DL/DL denoiser to suppress field noise by mapping unknown field noise
 to the Gaussian noise. 
 
-This is an example of using SRNGF($\widetilde{\mathbb{F}} , \widetilde{\mathbb{G}}$ to transform non-Gaussian/field noise into Gaussian noise in latent space.
+This is an example of using SRNGF($\widetilde{\mathbb{F}} , \widetilde{\mathbb{G}}$) to transform non-Gaussian/field noise into Gaussian noise in latent space.
 ![SRNGF-evolution-syth](assets/SRNGF-evolution-syth.jpg)
 Synthetic Noise Example
 ![field noise evolution](assets/field-noise-evolution.jpg)
 Field noise example
 
 ### Running 
-SRNGF($\widetilde{\mathbb{F}} , \widetilde{\mathbb{G}}$, when the Gaussian denoising operator $\widetilde{\mathbb{G}}$ is a (trained) deep learning model. 
+SRNGF($\widetilde{\mathbb{F}} , \widetilde{\mathbb{G}}$), when the Gaussian denoising operator $\widetilde{\mathbb{G}}$ is a (trained) deep learning model. 
 In the .\model_zoom folder, we have provided some pretrained Checkpoints of deep models for implementing $\widetilde{\mathbb{G}}$  
 
 ```bash
 python GVAE-deep*.py 
 ```
-SRNGF($\widetilde{\mathbb{F}} , \widetilde{\mathbb{G}}$, when the Gaussian denoising operator $\widetilde{\mathbb{G}}$ is a non deep learning method
+SRNGF($\widetilde{\mathbb{F}} , \widetilde{\mathbb{G}}$), when the Gaussian denoising operator $\widetilde{\mathbb{G}}$ is a non deep learning method
 In the .\seispro folder, we have provided some reproducible non-deep methods for implementing $\widetilde{\mathbb{G}}$  
 
 
