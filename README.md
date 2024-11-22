@@ -19,7 +19,7 @@ Field noise example
 
 ### Running 
 SRNGF($\widetilde{\mathbb{F}} , \widetilde{\mathbb{G}}$), when the Gaussian denoising operator $\widetilde{\mathbb{G}}$ is a (trained) deep learning model. 
-In the .\model_zoom folder, we have provided some pretrained Checkpoints of deep models for implementing $\widetilde{\mathbb{G}}$  
+In the .\model_zoo folder, we have provided some pretrained Checkpoints of deep models for implementing $\widetilde{\mathbb{G}}$  
 
 ```bash
 python GVAE-deep*.py 
