@@ -24,7 +24,7 @@ In the .\model_zoo folder, we have provided some pretrained Checkpoints of deep 
 ```bash
 python GVAE-deep*.py 
 ```
-SRNGF($\widetilde{\mathbb{F}} , \widetilde{\mathbb{G}}$), when the Gaussian denoising operator $\widetilde{\mathbb{G}}$ is a non deep learning method
+SRNGF($\widetilde{\mathbb{F}} , \widetilde{\mathbb{G}}$), when the Gaussian denoising operator $\widetilde{\mathbb{G}}$ is a non deep learning method.
 In the .\seispro folder, we have provided some reproducible non-deep methods for implementing $\widetilde{\mathbb{G}}$  
 
 
