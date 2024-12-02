@@ -30,7 +30,7 @@ In the .\seispro folder, we have provided some reproducible non-deep methods for
 
 **Note**:
 ----------------------------------------------------------------------------------------
-***You can easily integrate your own (non-deep learning/deep learning) algorithms into SRNGF to further improve the ability to suppress unknown distribution noise。***
+***You can easily integrate your own (non-deep learning/deep learning) algorithms into SRNGF to further improve the ability to suppress unknown distribution noise.***
 
 This is an example of incorporating a deep model ([VI-non-IID](https://github.com/mengchuangji/VI-Non-IID)) into SRNGF. The first to third rows are the denoising results, the removed noise, and the local similarity map, respectively. The second column is the result of VI-non-IID, and the third to seventh columns are the corresponding SRNGF results.
 ![xj-deep-zoom](assets/xj-deep-zoom.PNG)
