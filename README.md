@@ -72,4 +72,4 @@ and/or our earlier work VI-non-IID, which can be incorporated into SRNGF as a bl
 ```
 
 ## Contact
-If you have any problem about our code, feel free to contact 4120105144@stu.edu.xjtu.cn, 2279767412@qq.com or describe your problem in Issues
+If you have any problem about our code, feel free to contact cjmeng@xjtu.edu.cn, 2279767412@qq.com or describe your problem in Issues
